@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Saya</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="./main.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="nav-container">
+            <a href="#" class="logo">Portofolio Saya</a>
+            <div class="menu-icon" onclick="toggleMenu()">☰</div>
+            <nav>
+                <ul id="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">Tentang Saya</a></li>
+                    <li><a href="#projects">Proyek</a></li>
+                    <li><a href="#contact">Kontak</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home">
+        <div class="intro">
+            <img src="./img/Profile.jpg" alt="Foto Saya" class="profile-photo">
+            <div class="intro-text">
+                <h1>Halo, Saya <span>Fairuz Aqila Islami</span></h1>
+                <p>Seorang Junior development Yang Ingin Menjadi Fullstak Development.</p>
+                <div class="social-icons">
+                    <a href="https://github.com/username" target="_blank">
+                        <img src="https://cdn-icons-png.flaticon.com/512/733/733553.png" alt="GitHub" class="social-icon">
+                    </a>
+                    <a href="https://instagram.com/username" target="_blank">
+                        <img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt="Instagram" class="social-icon">
+                    </a>
+                    <a href="https://facebook.com/username" target="_blank">
+                        <img src="https://cdn-icons-png.flaticon.com/512/124/124010.png" alt="Facebook" class="social-icon">
+                    </a>
+                    <a href="https://linkedin.com/in/username" target="_blank">
+                        <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" class="social-icon">
+                    </a>
+                </div>                
+                <a href="#projects" class="btn">Lihat Proyek Saya</a>
+            </div>
+        </div>
+    </section>
+    
+    
+    
+
+    <section id="about">
+        <h2>Tentang Saya</h2>
+        <div class="about-content">
+            <p>Selamat datang di portofolio saya! Saya adalah seorang pelajar siswa di smk yg berjurusan RPL dan saya akan mengembangkan berbagai projek-projek yg menarik lainnya. Berikut adalah beberapa teknologi yang saya kuasai:</p>
+            <div class="tech-stack">
+                <img src="https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/html5.svg" alt="HTML" class="tech-logo">
+                <img src="https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/css3.svg" alt="CSS" class="tech-logo">
+                <img src="https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/javascript.svg" alt="JavaScript" class="tech-logo">
+                <img src="https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/php.svg" alt="PHP" class="tech-logo">
+                <img src="https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/laravel.svg" alt="Laravel" class="tech-logo">
+            </div>
+        </div>
+    </section>
+    
+
+
+    <section id="projects">
+        <h2>Proyek Saya</h2>
+        <div class="project-grid">
+            <div class="project-item">
+                <img src="./img/project.PNG" alt="Proyek 1">
+                <div class="project-info">
+                    <h3>Link-tree Akun</h3>
+                    <p>Membuat Project Link-tree,yang berisi akun media sosial saya</p>
+                </div>
+            </div>
+            <div class="project-item">
+                <img src="./img/project2.PNG" alt="Proyek 2">
+                <div class="project-info">
+                    <h3>Toko baju ecommers</h3>
+                    <p>Membuat web toko online dgn talwind css.</p>
+                </div>
+            </div>
+            <div class="project-item">
+                <img src="./img/projec3.PNG" alt="Proyek 2">
+                <div class="project-info">
+                    <h3>Login admind</h3>
+                    <p>Membuat fitur login dgn bahasa pemrograman javascript.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Kontak</h2>
+        <form>
+            <input type="text" placeholder="Nama" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Pesan" required></textarea>
+            <button type="submit" class="btn">Kirim</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Portofolio Saya. Dibuat dengan <span>❤</span> oleh Fairuz aqila</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
