@@ -274,10 +274,22 @@ footer span {
 
 /* Responsive Design */
 @media (max-width: 768px) {
-    .menu-icon {
-        display: block;
+    .nav-container {
+        display: flex;
+        justify-content: space-between; 
+        align-items: center; 
+        padding: 0 30px; 
     }
 
+    .logo {
+        margin-right: auto; 
+    }
+    
+    .menu-icon {
+        display: block;
+        margin-left: auto;
+    }
+    
     nav ul {
         display: none;
         flex-direction: column;
