@@ -180,6 +180,11 @@ nav ul li a {
     transition: transform 0.3s;
 }
 
+.project-item a{
+    text-decoration: none;
+    color: black;
+}
+
 .project-item:hover {
     transform: scale(1.05);
 }
