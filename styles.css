@@ -100,6 +100,7 @@ nav ul li a {
 }
 
 .btn {
+    z-index: 10;
     background-color: #FFD700;
     color: #333;
     padding: 12px 25px;
@@ -267,6 +268,7 @@ footer span {
 }
 
 .tech-logo {
+    padding: 8px;
     width: 80px;
     height: auto;
     display: block;
@@ -275,6 +277,7 @@ footer span {
 
 .tech-logo:hover {
     transform: scale(1.1);
+    border-radius: 5%;
 }
 
 /* Responsive Design */
