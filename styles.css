@@ -200,8 +200,12 @@ nav ul li a {
     text-align: left;
 }
 .link {
-    color: #074799 !important;
-    font-weight: bold !important;
+    color: #074799 ;
+    font-weight: bold ;
+}
+.link:hover{
+    color: #031735;
+    transition: all 1s ease;
 }
 
 form {
